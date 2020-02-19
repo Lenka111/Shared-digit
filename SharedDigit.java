@@ -1,5 +1,7 @@
 //Elena Voinu
-// program that checks if there is a digit that appears in two numbers
+/*Control Flow Statements
+ Program that checks if there is a digit that appears in two numbers*/
+
 
 public class SharedDigit {
     /*The method should return true if there is a digit that appears in both numbers, 
