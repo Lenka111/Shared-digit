@@ -1,5 +1,9 @@
+//Elena Voinu
+// program that checks if there is a digit that appears in two numbers
+
 public class SharedDigit {
-    // write your code here
+    /*The method should return true if there is a digit that appears in both numbers, 
+such as 2 in 12 and 23; otherwise, the method should return false.*/
 
     public static boolean hasSharedDigit(int num1, int num2){
         //get the first digit in a number
@@ -17,10 +21,10 @@ public class SharedDigit {
         return (firstDigitNum1 == firstDigitNum2) || (lastDigitNum1 == lastDigitNum2) || (firstDigitNum2 == lastDigitNum1);
 
 
-    }// end method
+    }// end method hasSharedDigit()
 
     public static void main(String[] args) {
         System.out.println(hasSharedDigit(12,21));
-    }
+    }// end main
 
 }// end class
